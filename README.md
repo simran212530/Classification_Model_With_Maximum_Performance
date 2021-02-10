@@ -4,17 +4,12 @@
 ## Outline
 
 1. [Observation](#observation)
-2. [Model - 1](#Model - 1)
-3. [Model - 2](#Model - 2)
-4. [Model - 3](#Model - 3)
-3. [Dataset](#dataset)
-   * [Exploratory Data Analysis](#exploratory-data-analysis)
-   * [Data Preparation and Preprocessing](#data-preparation-and-preprocessing)
-4. [Methodology](#methodology)
+2. [Model - 1](#Model - 1 Analsysis)
+3. [Model - 2](#Model - 2 Analsysis)
+4. [Model - 3](#Model - 3 Analsysis)
+5. [Dataset](#dataset) 
+6. [Methodology](#methodology)
    * [Classification Techniques](#classification-techniques)
-   * [Evaluation](#evaluation)
-5. [Results and Analysis](#results-and-analysis)
-6. [Conclusions](#conclusions)
 7. [References](#references)
 
 ---
