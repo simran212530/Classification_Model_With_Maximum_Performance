@@ -4,9 +4,9 @@
 ## Outline
 
 1. [Observation](#observation)
-2. [Model - 1](#Model - 1 Analsysis)
-3. [Model - 2](#Model - 2 Analsysis)
-4. [Model - 3](#Model - 3 Analsysis)
+2. [Model - 1 Analysis](#Model - 1)
+3. [Model - 2 Analysis](#Model - 2)
+4. [Model - 3 Analysis](#Model - 3)
 5. [Dataset](#dataset) 
 6. [Methodology](#methodology)
    * [Classification Techniques](#classification-techniques)
@@ -18,18 +18,8 @@
 ### Observation from the model designs: 
 The data was highly imbalanced (1.44% instances having ‘T’ value as 0 amongst the rest being 1s). Due to the numerical nature of the data, we have done some basic pre-processing like dropping records having null values and removing duplicates.
 
-### Model - 1 Analsysis: 
+### Model - 1 Analysis: 
 Training on the entire dataset but a parameter ‘scale_pos_weight’ provided to inform the classifier about the ratio of the 0s wrt 1s.
-
-Learning
-We had a great time analysing the data provided to us. We experimented with
-various under-sampling as well as over-sampling techniques like Random
-Under/Oversampling, Tomek Links, Wilson’s ENN and SMOTE. We only
-managed to carry out our checks with kNN, Decision Tree and RandomForrest
-Classifiers. We experimented with tuning our hyper-parameters using
-GridSearchCV and RandomSearchCV. It was an amazing learning experience by
-getting familiar with the training and prediction times of different models and
-tuning their hyper-parameters to the data’s convenience.
 
 ### Model - 2 Analysis: 
 Undersampled the training data as to get twice the amount of samples having ‘T’ values as 1 than 0. Therefore, provided ‘scale_pos_weight’ appropriately.
